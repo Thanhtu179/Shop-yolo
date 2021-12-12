@@ -95,3 +95,7 @@ img {
         margin-top: calc(#{$header-mobile-height} + 10px);
     }
 }
+
+.grid {
+    display: grid;
+}
