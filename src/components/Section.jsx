@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Section = () => {
+const Section = (props) => {
     return (
         <div className="section">
             {props.children}
@@ -8,7 +8,7 @@ const Section = () => {
     )
 }
 
-export const SectionTitle = () => {
+export const SectionTitle = (props) => {
     return (
         <div className="section__title">
             {props.children}
@@ -16,7 +16,7 @@ export const SectionTitle = () => {
     )
 }
 
-export const SectionBody = () => {
+export const SectionBody = (props) => {
     return (
         <div className="section__body">
             {props.children}
